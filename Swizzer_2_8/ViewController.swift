@@ -12,9 +12,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
 
-
+    @IBAction func perform(_ sender: Any) {
+        performSegueWithIdentifier(identifier: "First", sender: nil) { (segue) in
+            let firstView = segue.destination as! FirstViewController
+            firstView.importantVar += 1
+        }
+    }
 }
 

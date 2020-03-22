@@ -14,6 +14,7 @@
 		F780A663242562B4006582BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F780A662242562B4006582BE /* Assets.xcassets */; };
 		F780A666242562B4006582BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F780A664242562B4006582BE /* LaunchScreen.storyboard */; };
 		F780A66E24256322006582BE /* SegueSwizzler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F780A66D24256322006582BE /* SegueSwizzler.swift */; };
+		F79F61602427B474001E1517 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79F615F2427B474001E1517 /* FirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F780A665242562B4006582BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F780A667242562B4006582BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F780A66D24256322006582BE /* SegueSwizzler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueSwizzler.swift; sourceTree = "<group>"; };
+		F79F615F2427B474001E1517 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				F780A659242562B1006582BE /* AppDelegate.swift */,
 				F780A65B242562B1006582BE /* SceneDelegate.swift */,
 				F780A65D242562B1006582BE /* ViewController.swift */,
+				F79F615F2427B474001E1517 /* FirstViewController.swift */,
 				F780A65F242562B1006582BE /* Main.storyboard */,
 				F780A662242562B4006582BE /* Assets.xcassets */,
 				F780A664242562B4006582BE /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F79F61602427B474001E1517 /* FirstViewController.swift in Sources */,
 				F780A65E242562B1006582BE /* ViewController.swift in Sources */,
 				F780A66E24256322006582BE /* SegueSwizzler.swift in Sources */,
 				F780A65A242562B1006582BE /* AppDelegate.swift in Sources */,
