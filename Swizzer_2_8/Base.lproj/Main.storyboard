@@ -15,16 +15,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NQv-wP-JJK">
-                                <rect key="frame" x="164" y="296" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NQv-wP-JJK">
+                                <rect key="frame" x="168.5" y="318.5" width="38" height="30"/>
+                                <state key="normal" title="Show"/>
                                 <connections>
                                     <action selector="perform:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gT2-K9-lfQ"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OVx-eJ-aOx">
+                                <rect key="frame" x="67" y="65" width="240" height="128"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="identifier" value="This is IBInspectable identifier"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OVx-eJ-aOx" secondAttribute="trailing" constant="68" id="7Na-wY-eS6"/>
+                            <constraint firstItem="NQv-wP-JJK" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="CAA-YB-lqg"/>
+                            <constraint firstItem="NQv-wP-JJK" firstAttribute="top" secondItem="OVx-eJ-aOx" secondAttribute="bottom" constant="125.5" id="aCT-9B-j3d"/>
+                            <constraint firstItem="OVx-eJ-aOx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="65" id="e9c-74-hrl"/>
+                            <constraint firstItem="NQv-wP-JJK" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="meC-2T-4M3"/>
+                            <constraint firstItem="OVx-eJ-aOx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="wib-6a-t5P"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
